@@ -1,1 +1,44 @@
-/* Put your style information here! */
+body {
+    font-family: 'Dekko', cursive;
+    background-color: #FAFAFA;
+}
+
+.main {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+h1 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 3vw;
+    color:sienna;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h2 {
+    color:tan;
+    font-family: 'Indie Flower', cursive;
+    font-size: 2vw;
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h3 {
+    font-size: 20px;
+    text-align: left;
+    padding-top: 20px; 
+}
+
+.sketch {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+h4 {
+    font-size: 20px;
+    color: rgba(117, 117, 117, 1);
+    text-align: center;
+}

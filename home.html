@@ -1,14 +1,243 @@
-<!doctype html>
-
-<html>
-  <head>
-    <title>INSERT TITLE HERE!</title>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="index.css">
-    <!-- TODO: add additional links here! e.g. fonts, icons, more stylesheets, etc. -->
-    <meta content="width=device-width, initial-scale=1" name="viewport" />
-  </head>
+    <link href="https://fonts.googleapis.com/css2?family=Dekko&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/90f50068f8.js" crossorigin="anonymous"></script>
+    <title>Smart Package Lockers</title>
+    </head>
+    <body>
+    
+    <nav class="navbar navbar-expand-sm navbar-light" style="background-color:#f0ece3;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Package Lockers</a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#overview">Overview</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#observations">Observations</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#interviews">Interviews</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#personas">Personas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#storyboard">Storyboard</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
 
-  <body>
-    <!-- TODO: put your HTML code here! -->
-  </body>
-</html>
+
+    <div class="main">
+        <div class="d-flex flex-column justify-content-center align-items-center top-pane">
+            <h1>Your package is ready to be picked up <i class="fas fa-envelope-open-text"></i></i></h1>
+            <img alt="package locker scene" src="images/homepage.png" >
+        </div>
+        
+    
+        <div id="overview" class="container-fluid">
+            <h2 >Overview</h2>
+            <h3 >
+                With more than 10 billion packages delivered in the U.S. annually by the top package carriers, 
+                smart package lockers have become one of the fastest-growing amenities among residentials, 
+                universities and offices. They eliminate extra labor, theft, and are completely contactless, 
+                benefiting both recipients and carriers.  
+            </h3>
+
+            <h3>
+                This project focuses on the user experience regarding package lockers. 
+                I am going to conduct a contextual inquiry, which is to  observe and interview people while they are interacting with the interface. 
+                It is a good way to step into a user’s shoes and provide hints for designers to polish their products. 
+            </h3>
+
+            <h3>
+                Package lockers are designed for secure package delivery and convenient package pick-up.
+                The main unit of package lockers contains a touchscreen, battery backup, electronics and compartments of varying sizes. 
+                The annotated sketches below show the key interactive component, 
+                which is the touchscreen that allows users to enter their pick-up code and enable the specific locker to open.
+            </h3>
+
+            
+            <div class="container">
+                <div class="row pt-5 align-items-center">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                        <img class="img-fluid" src="images/ov1.png" alt="package lockers overview">
+                    </div>
+                    
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                    <h3>
+                        Package lockers are designed for secure package delivery and convenient package pick-up.
+                        The main unit of package lockers contains a touchscreen, battery backup, electronics and compartments of varying sizes. 
+                        The annotated sketches below show the key interactive component, 
+                        which is the touchscreen that allows users to enter their pick-up code and enable the specific locker to open.
+                    </h3>
+                  </div>
+                  <div class="col-12 col-sm-12 col-md-6 col-lg-6 pt-5">
+                    <img class="img-fluid" src="images/ov2.png" alt="touchscreen default page">
+                  </div>
+                  <div class="col-12 col-sm-12 col-md-6 col-lg-6 pt-5">
+                    <img class="img-fluid" src="images/ov3.png" alt="touchscreen entering page">
+                  </div>
+                  <div class="col-12 col-sm-12 col-md-6 col-lg-6 pt-5 pb-5">
+                    <img class="img-fluid" src="images/ov4.png" alt="touchscreen signature page">
+                  </div>
+                  <div class="col-12 col-sm-12 col-md-6 col-lg-6 pt-5 pb-5">
+                    <img class="img-fluid" src="images/ov5.png" alt="touchscreen open page">
+                  </div>
+                </div>
+              </div>
+              <h4>Sketch of the interface</h4>
+            </div>
+
+        <div id="observations">
+            <h2 >Observations</h2>
+            <h3 >
+                I observed 3 people using the interface in order to get a grasp of the user population of package lockers. 
+                Here are some of the key observations noted from the three interviewees:
+            </h3>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-4">
+                        <span style="font-size:20px;" class="texteditor-inline-fontsize">Eva &nbsp; 📚</span>
+                        <ul>
+                            <li>Eva pressed “begin” on the touchscreen several times to go to the interface for entering code.</li>
+                            <li>Eva looked for the pick-up code from her phone for a while.</li>
+                            <li>Eva stepped backward before the locker door opened.</li>
+                        </ul>
+                    </div>
+
+                    <div class="col-4">
+                        <span style="font-size:20px;" class="texteditor-inline-fontsize">Stephenie&nbsp; &nbsp;👀</span>
+                        <ul>
+                            <li>Stephenie directly scanned the QR code to open the locker.</li>
+                            <li>Stephenie finishes her task smoothly and opens her locker very quickly.</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="col-4">
+                        <span style="font-size:20px;" class="texteditor-inline-fontsize">Mona&nbsp; &nbsp;📏</span>
+                        <ul>
+                            <li>Mona declined when it popped up on the screen “would you like to download our mobile APP”.</li>
+                            <li>Mona read the code out and entered it.</li>
+                            <li>Mona pressed “exit” on the touchscreen after closing the locker door.</li>
+                        </ul>
+                    </div>
+                  
+                </div>
+              </div>
+
+        </div>
+        
+        <div id="interviews">
+            <h2 >Interviews</h2>
+            
+            <h3>
+                After the observations, I interviewed three people individually to ask about their user experience regarding expectations, 
+                experience, motives and challenges. The questions are listed below:
+            </h3>
+
+            <ol type="1">
+                <li>How often do you use package lockers(e.g. specify how many times a week on average)?</li>
+                <li>When and where would you use the locker?</li>
+                <li>How would you use the locker(e.g. scan or enter code)? If multiple ways, which one do you prefer?</li>
+                <li>What alternative method would you use to pick up a package?</li>
+                <li>Do the lockers you often use guide you which locker is gonna open?</li>
+                <li>Did you experience when the locker is too small to fit the package size which results in the damage of the package?</li>
+                <li>Did you experience when the locker is too high/low to reach?</li>
+                <li>Did you experience when the large or heavy packages are left in the locker and are hard to carry back home?</li>
+                <li>Did you experience when no locker opens when you press the open button? If so, how did you fix that?</li>
+                <li>Did you watch the advertisement on the screen when picking your package?
+                    If so, is it mandatory to watch, or can you skip the ads? How do you feel about the advertisements?
+                </li>
+                <li>Overall, how easy or difficult do you find using the locker from the scale of 1 to 6 (1-extremely difficult 6-extremely easy)? And why this rating?</li>
+                <li>How would you suggest the package locker providers improve their products?</li>
+            </ol> 
+
+            <h3>
+                I also summarized the responses of the interviewed users and discovered some interesting patterns.
+            </h3>
+
+            <h3>
+                Eva lives in dorms on campus. There are two package lockers from different providers both located a seven-minute 
+                walk from her dorm. Eva prefers package lockers compared to in-person pick-up since they are <strong>not limited 
+                by office hours </strong>and are <strong>contactless</strong>. However, she finds the lockers from one of the providers have a 
+                <strong>bad touch</strong> and do not have a camera for scanning QR code, which is the one she used in this observation. She said sometimes she struggled 
+                with this locker since the interaction is <strong>slow and insensitive</strong>. Also, Eva said she received the text message the day before, 
+                and she hoped she could be <strong>reminded for several times before she picked it up</strong>. She is also concerned about the location of 
+                the locker that is going to be opened since she is afraid of the ones directly facing her. She hopes the interface 
+                could <strong>tell her which locker she is going to open</strong>.
+            </h3>
+
+
+            <h3>
+                Stephenie loves online shopping and uses the lockers twice a week on average, which is more often than other two interviewees. 
+                She is satisfied with the lockers in her apartment building, with which she feels <strong>secure</strong> since the carriers do not have to drop 
+                the package at the door of her unit and it is <strong>convenient</strong> to carry her packages home when she is back from work. One special 
+                experience she mentioned is once her locker did not open as supposed and she fixed it by just touching <strong>“reopen” on the screen</strong>, 
+                which made her feel <strong>comfortable</strong> with the smart interface.
+            </h3>
+
+            <h3>
+                Mona uses package lockers in her neighborhood. She usually picks up her packages on the way home from work. 
+                She said the lockers are <strong>extremely easy to use</strong> since her elderly parents are able to use them. She likes the 
+                <strong>flexibility and privacy</strong> of the lockers, but she is a little bit <strong>bothered by the advertisements popping on the screen</strong> 
+                either recommending their mobile apps or other products. She <strong>expects the interface to be more simple and concise</strong>.
+            </h3>
+
+        </div>
+
+        <div id="personas">
+            <h2 >Personas</h2>
+
+            <h3>
+                Based on overarching trends I observed amongst all three people I interviewed, I constructed two personas 
+                by creating a four-quadrant empathy map, describing what users think, feel, say and do. It helps us interpret 
+                and make sense of what the users are saying and what the observations from their actions indicate.
+            </h3>
+
+
+            <div class="container" style="padding-top: 20px; padding-bottom: 20px;">
+                <div class="row text-center justify-content-center">
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-6 pt-5">
+                        <img class="img-fluid" src="images/em1.png" alt="Jamie's empathy map">
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-6 pt-5">
+                        <img class="img-fluid" src="images/em2.png" alt="Jamie's empathy map">
+                    </div>
+                
+                </div>
+            </div>
+
+            <h4>Empathy Maps</h4>
+
+        </div>
+
+        <div id="storyboard">
+            <h2 >Storyboard</h2>
+            <h3>
+                Based on Diligent Jamie's persona above, I created a storyboard describing her user journey from start to end.
+            </h3>
+
+            <div class="row text-center justify-content-center">
+                <img style="width: 1000px; height: auto; padding-top: 10px; padding-bottom: 10px;" src="images/storyboard.png" alt="storyboard of Jamie's journey">
+            </div>
+
+            <h4>Storyboard</h4>
+
+
+
+        </div>
+    </div>
+    
+
+
+    
+    
+    <footer class="bg-white py-3">
+        <div class="container text-right">
+            <p class="mb-0">© 2020</a><br>
+        </div>
+    </footer>
+    
+    
+    
+    </body></html>
